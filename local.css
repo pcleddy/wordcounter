@@ -1,0 +1,38 @@
+div.wordcount {
+    padding: 5px 5px 15px 5px;
+}
+
+td {
+  padding: 3px 15px 3px 10px;
+}
+
+.wordcount-1 {
+  background-color: #0277bd;
+}
+
+.wordcount-2 {
+  background-color: #0288d1;
+}
+
+.wordcount-3 {
+  background-color: #039be5;
+}
+
+.wordcount-4 {
+  background-color: #03a9f4;
+}
+
+.wordcount-5 {
+  background-color: #29b5f6;
+}
+
+.wordcount-6 {
+  background-color: #4fc3f7;
+}
+
+body {
+  background-color: #8b8386;
+}
+
+
+

@@ -1,0 +1,43 @@
+<html ng-app="wordsApp">
+<head>
+  <title>Hello AngularJS</title>
+  <script src="angular.js"></script>
+  <script src="app.js"></script>
+  <script src="underscore-min.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="local.css">
+</head>
+
+<body ng-controller="MainCtrl">
+
+<div class="container">
+
+  <div class="row">&nbsp;</div>
+  <div class="row">
+
+    <div class="col-md-2">
+       &nbsp;
+    </div>
+
+    <div class="col-md-7">
+      <textarea ng-model="m_text" rows="20" cols="80" data-ng-trim="false"></textarea>
+    </div>
+
+    <div class="col-md-2">
+      <div class="wordcount">Word Count: {{m_words.length}}</div>
+      <table>
+      <tr ng-repeat="word in m_words">
+        <td class="wordcount-{{word.count}}">&nbsp;</td>
+        <td>{{word.word}}</td>
+        <td>{{word.count}}</td>
+      </tr>
+      </table>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>
